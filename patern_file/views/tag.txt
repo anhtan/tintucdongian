@@ -1,0 +1,4 @@
+<div class="form-group">
+    <label> $label_item </label><br>
+    <input type="text" name="$name_of_field" value="<?php if(isset($update_info[0]->$name_of_field)){echo $update_info[0]->$name_of_field;}else if(set_value('$name_of_field')){echo set_value("$name_of_field");} ?>" data-role="tagsinput" class="type_tag_input form-control medium_input" />
+</div>

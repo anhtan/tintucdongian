@@ -1,0 +1,11 @@
+<div class="form-group">
+    <label> $label_item </label>
+    <select name="$name_of_field" class="form-control">
+        <option value="0">Chọn danh mục</option>
+            <option  value="">muc1</option>
+            <option  value="">muc2</option>
+            <option  value="">muc3</option>
+            <option  value="">muc4</option>
+    </select>
+    <?php echo form_error('article_category_parent','<p class="help-block mess_required">','</p>'); ?>
+</div>

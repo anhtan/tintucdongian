@@ -1,0 +1,10 @@
+<div class="form-group">
+    <i class="fa fa-5x fa-fw" id="icon_background_menu" title="tin danh mục"></i>
+</div>
+<div class="form-group">
+    <label> $label_item </label>
+    <input type="button" class="btn btn-info" data-target="#listIcon" data-toggle="modal" value="Chọn ảnh" />
+    <input class="form-control icon_menu" name="$name_of_field" value="<?php echo set_value('') ?>" type="hidden">
+    <?php echo form_error('','<p class="help-block mess_required">','</p>'); ?>
+</div>
+<?php include "listIcon.php"; ?>

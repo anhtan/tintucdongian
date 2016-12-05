@@ -1,0 +1,8 @@
+<div class="form-group">
+    <label>$label_detail_item</label>
+    <?php if($info_all[0]['$name_detail_field'] == 1): ?>
+        <p class="help-block"><?php echo "Hiện"; ?></p>
+    <?php else: ?>
+        <p class="help-block"><?php echo "Ẩn"; ?></p>
+    <?php endif; ?>
+</div>

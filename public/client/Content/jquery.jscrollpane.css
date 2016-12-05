@@ -1,0 +1,109 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden; 
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{background:#f1f1f1;
+	position: absolute; padding:0px 0px 0px 4px; overflow:hidden;
+	top: 0px;
+	right: 0px;
+	width: 6px;
+	height: 145px;
+}
+#nguoigiau_sanck .jspVerticalBar
+{background:#ededed; border-radius:3px;
+	position: absolute; padding:0px 0px 0px 4px; overflow:hidden;
+	top: 0px;
+	right: 1px;
+	width: 6px;
+	height: 73px;
+}
+.promotion .jspVerticalBar
+{
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	width: 7px;
+	height: 200px;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+.jspTrack{position: relative;width:̀6px; height:145px; float:left; overflow:hidden; background:#eeeeee;}
+
+.jspDrag
+{background:#c2c2c2 url(../images/scrollbar.gif) no-repeat center center;width:6px; border:none; border-radius:3px;position:relative;top: 0;cursor: pointer;-moz-border-radius:3px;-webkit-border-radius:3px;border--radius:3px;behavior:url(PIE.htc);}
+
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	/*background: #50506d;*/
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	/*background: #80808d;*/
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+

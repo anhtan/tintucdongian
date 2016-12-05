@@ -1,0 +1,41 @@
+.list_home_mobile li:first-child
+{
+    display: none;
+}
+.category_1
+{
+    color:blue;
+}
+.category_2
+{
+    color:green;
+}
+.category_3
+{
+    color:darkmagenta;
+}
+.category_4
+{
+    color:dodgerblue;
+}
+.category_5
+{
+    color:goldenrod;
+}
+.category_6
+{
+    color:darkred;
+}
+.category_7
+{
+    color:yellowgreen;
+}
+.category_8
+{
+    color:darkblue;
+}
+.category_9
+{
+    color:cadetblue;
+}
+

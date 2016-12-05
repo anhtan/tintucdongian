@@ -1,0 +1,18 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+class $name_model extends MY_Model
+{
+    // truong du lieu
+    $field_model
+    public $tbl_name;
+
+    // ten hien thi
+    $name_display_model
+    function __construct()
+    {
+        parent::__construct();
+        $this->tbl_name = '$table_name';
+    }
+
+}
+?>

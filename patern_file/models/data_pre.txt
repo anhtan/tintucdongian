@@ -1,0 +1,4 @@
+$data_pre["site_name"] = $this->input->post("site_name");
+$data_pre["site_link"] = $this->input->post("site_link");
+$data_pre["site_type"] = $this->input->post("site_type");
+$data_pre["site_status"] = $this->input->post("site_status");

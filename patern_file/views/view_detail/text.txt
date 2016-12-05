@@ -1,0 +1,4 @@
+<div class="form-group">
+    <label>$label_detail_item</label>
+    <p class="help-block"><?php echo $info_all[0]['$name_detail_field']; ?></p>
+</div>

@@ -1,0 +1,9 @@
+<div class="form-group">
+    <label for=""> $label_item </label>
+    <select name="$name_of_field[]" class=" form-control selectpicker"  title="Chọn quyền hạn"   data-showContent="true" multiple>
+        <option value="<?php  ?>">1</option>
+        <option value="<?php  ?>">2</option>
+        <option value="<?php  ?>">3</option>
+        <option value="<?php  ?>">4</option>
+    </select>
+</div>

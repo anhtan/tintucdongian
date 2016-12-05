@@ -1,0 +1,9 @@
+
+//-------------- module $obj_module--------------
+$route['admin/$obj_module/list$name_controller'] = "$obj_module/list$name_controller";
+$route['admin/$obj_module/changeStatus'] = "$obj_module/changeStatus";
+$route['admin/$obj_module/viewDetail'] = "$obj_module/viewDetail";
+$route['admin/$obj_module/add$name_controller'] = "$obj_module/add$name_controller";
+$route['admin/$obj_module/deleteOne/(:any)'] = "$obj_module/deleteOne/$1";
+$route['admin/$obj_module/edit$name_controller/(:any)'] = "$obj_module/edit$name_controller/$1";
+$route['admin/$obj_module/listOrderByPosition'] = "$obj_module/listOrderByPosition";

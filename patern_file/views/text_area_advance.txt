@@ -1,0 +1,5 @@
+<div class="form-group">
+    <label> $label_item <span class="asterik_label"> (*)</span></label>
+    <textarea placeholder="Nhập $label_item" rows="10" cols="35" class="form-control tinymce_text_area" name="$name_of_field"><?php if(isset($update_info[0]->$name_of_field)){echo $update_info[0]->$name_of_field;}else if(set_value('$name_of_field')){echo set_value("$name_of_field");} ?></textarea>
+    <?php echo form_error('$name_of_field','<p class="help-block mess_required">','</p>'); ?>
+</div>
